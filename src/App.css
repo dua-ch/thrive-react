@@ -1,0 +1,52 @@
+.text-shadow {
+  text-shadow: 0px 0px 30px #1BAB49;
+}
+.text-shadow-btn {
+  text-shadow: 0px 0px 10px #1BAB49;
+}
+
+.progress-path {
+  clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%);
+}
+
+.rocket {
+  animation: rocketAnimation 2s infinite ease-in-out;
+}
+
+.text-\[\#2FAFB2\] {
+  color:#1BAB49 !important
+}
+
+.bg-progress{
+  background: #1BAB49 !important;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+
+.disc p{
+  font-weight: 300 !important
+ }
+ 
+ .disc ol{
+  list-style: number;
+  padding-left: 20px;
+  margin: 20px 0
+ }
+ 
+ .disc ol li{
+  margin-bottom: 10px
+ }
+@keyframes rocketAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
